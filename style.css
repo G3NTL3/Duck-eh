@@ -1,0 +1,61 @@
+/* 
+body {
+    background: linear-gradient(-45deg, violet, indigo, blue, green, yellow, orange, red);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: 100vh;
+} */
+
+body {
+    height: fit-content;
+    background: linear-gradient(180deg, #3aff00, #ff8900, #00ffc9, #eeff00, #ff60f2);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: grad 13s ease infinite;
+    -moz-animation: grad 13s ease infinite;
+    animation: grad 13s ease infinite;
+}
+
+@-webkit-keyframes grad {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes grad {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes grad {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+
+
+h1 , h2 , h3 , h4 , h5, h6 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.duckcont{
+    border: 1px solid black;
+    margin: auto;
+    width: fit-content;
+}
+
+img{
+    /* width: 150%; */
+    position: absolute;
+    margin: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 500px;
+    height: auto;
+}
+
+.span1{
+    border: 1px solid black;
+    
+}
