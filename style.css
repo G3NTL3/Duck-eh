@@ -40,14 +40,14 @@ h1 , h2 , h3 , h4 , h5, h6 {
 
 
 .duckcont{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: auto;
     width: fit-content;
 }
 
-img{
+.duck{
     /* width: 150%; */
-    position: absolute;
+    /* position: absolute; */
     margin: 100px;
     margin-top: 0px;
     margin-bottom: 0px;
